@@ -95,7 +95,7 @@ jobs:
           logMessage: |
               EC2 Instance created successfully ✅
 
-     - name: Report Created Instance to Port
+      - name: Report Created Instance to Port
         uses: port-labs/port-github-action@v1
         with:
           clientId: ${{ secrets.PORT_CLIENT_ID }}
