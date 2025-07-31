@@ -1,5 +1,5 @@
 name: Provision AN EC2 Instance
-
+# Trigger refresh
 on:
   workflow_dispatch:
     inputs:
